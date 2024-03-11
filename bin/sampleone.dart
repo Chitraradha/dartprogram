@@ -8,13 +8,15 @@ import 'fibno.dart';
 import 'gcd.dart';
 import 'leapyear.dart';
 import 'palindrome.dart';
+import 'person.dart';
 import 'prime.dart';
 import 'primerange.dart';
 import 'reverse.dart';
 import 'sum.dart';
+import 'sumoftwo.dart';
 import 'swaplist.dart';
 import 'vowel.dart';
-
+import 'calculator.dart';
 
 void main() 
 {
@@ -35,5 +37,12 @@ void main()
  //primerange();
  //decitobin();
  //email();
- swap();
+ //swap();
+ //Firstcls obj=Firstcls();
+ //obj.sum();
+ //Person obj1=Person();
+ //obj1.printDetails();
+ Rectangle obj2= Rectangle();
+ print( obj2.calculatorArea());
+ print(obj2.calculatePerimeter());
 }
