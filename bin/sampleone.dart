@@ -6,18 +6,24 @@ import 'emailvali.dart';
 import 'factorial.dart';
 import 'fibno.dart';
 import 'gcd.dart';
+import 'house.dart';
 import 'leapyear.dart';
 import 'palindrome.dart';
 import 'person.dart';
 import 'prime.dart';
 import 'primerange.dart';
 import 'reverse.dart';
+import 'student.dart';
 import 'sum.dart';
 import 'sumoftwo.dart';
 import 'swaplist.dart';
+import 'vehicle.dart';
 import 'vowel.dart';
 import 'calculator.dart';
-
+import 'car.dart';
+import 'laptop.dart';
+import 'house.dart';
+import 'bank.dart';
 void main() 
 {
   // print("Chitra");
@@ -42,7 +48,28 @@ void main()
  //obj.sum();
  //Person obj1=Person();
  //obj1.printDetails();
- Rectangle obj2= Rectangle();
- print( obj2.calculatorArea());
- print(obj2.calculatePerimeter());
+ //Rectangle obj2= Rectangle();
+ //print( obj2.calculatorArea());
+ //print(obj2.calculatePerimeter());
+ //RollsRoyce obj=RollsRoyce();
+ //obj.logout();
+ //obj.move();
+ 
+ //Laptop obj3= Laptop(108, "hp", "64GB");
+ //obj3.lap();
+ //House obj4=House(201, "tuas", 81927128);
+  //obj4.housedetails();
+  //Carss obj5=Carss("hw", "ds", 2001, 90);
+  //obj5.vehicledetails();
+  //Student obj6= Student();
+  //obj6.setvalue("chitra", 23, 47);
+  //obj6.getvalue();
+  BankAccount obj7=BankAccount("102323AD", "CHITRA");
+  obj7.deposit(00);
+  obj7.withdraw(1000);
+  obj7.getbalance();
+  BankAccount obj8=BankAccount("102323AD", "CHITRA");
+  obj8.deposit(00);
+  obj8.withdraw(1000);
+  obj8.getbalance();
 }
